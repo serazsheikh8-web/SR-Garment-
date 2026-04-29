@@ -1,1 +1,124 @@
-<h1>How are you...?</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garment Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=Garment+Store+Banner') no-repeat center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .product {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin: 15px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+    }
+    .product h3 {
+      margin: 10px 0;
+    }
+    .product p {
+      color: #777;
+      font-size: 14px;
+      padding: 0 10px;
+    }
+    .contact {
+      background: #ecf0f1;
+      padding: 30px;
+      text-align: center;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Garment Store</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    Stylish & Affordable Clothing
+  </div>
+
+  <section id="products" class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/250x250?text=T-Shirt" alt="T-Shirt">
+      <h3>Classic T-Shirt</h3>
+      <p>Comfortable cotton T-shirt available in multiple colors.</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x250?text=Jeans" alt="Jeans">
+      <h3>Denim Jeans</h3>
+      <p>Durable and stylish jeans for everyday wear.</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x250?text=Jacket" alt="Jacket">
+      <h3>Winter Jacket</h3>
+      <p>Warm and cozy jacket perfect for cold weather.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@garmentstore.com</p>
+    <p>Phone: +977-123456789</p>
+    <p>Address: Lumbini, Nepal</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Garment Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
